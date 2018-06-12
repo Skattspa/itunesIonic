@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Itunes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<input type="text" [(ngModel)]="busqueda">
+<button ion-button blockground (click)="buscar()" >Buscar</button>
+
+</ion-content>
